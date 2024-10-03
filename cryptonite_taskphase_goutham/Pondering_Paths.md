@@ -7,7 +7,7 @@ type the command and hit enter
 ### Category: linux Basics
 
 ## Step 1: Enter the path to get the flag
-- Enter /pwn to get the flag.
+- Enter `/pwn` to get the flag.
 
 ### Tools used:
 - none
@@ -20,7 +20,7 @@ type the command and hit enter.
 ### Category: linux Basics
 
 ## Step 1: Enter the path and run the  run program to get the flag
-- Enter /challenge/run to get the flag.
+- Enter `/challenge/run` to get the flag.
 
 ### Tools used:
 - none
@@ -33,7 +33,7 @@ traverse through the directory and execute the given program
 ### Category: linux Basics
 
 ## Step 1: find the contents of the directory im in
-- run ls , output: Desktop
+- run `ls` , output: Desktop
 - enter Desktop and run the program
 - gets the directory where the program is , go to it and run the program to get the flag
 
@@ -48,7 +48,7 @@ traverse through the directory and execute the given program
 ### Category: linux Basics
 
 ## Step 1: find the contents of the directory im in
-- run ls , output: Desktop
+- run `ls` , output: Desktop
 - enter Desktop and run the program
 - gets the directory where the program is , go to it and run the program to get the flag
 
@@ -63,7 +63,7 @@ traverse through the directory and execute the given program
 ### Category: linux Basics
 
 ## Step 1: find the contents of the directory im in
-- run ls , output: Desktop
+- run `ls` , output: Desktop
 - enter Desktop and run the program
 - gets the directory where the program is , go to it and run the program to get the flag
 
@@ -79,7 +79,7 @@ traverse through the directory and execute the given program
 ### Category: linux Basics
 
 ## Step 1: find the contents of the directory im in
-- run ls , output: Desktop
+- run `ls` , output: Desktop
 - enter Desktop and run the program
 - gets the directory where the program is in which is /, so i go back to / using cd .. command and run the program.
 
@@ -94,9 +94,9 @@ traverse through the directory and execute the given program
 ### Category: linux Basics
 
 ## Step 1: find the contents of the directory im in
-- run ls , output: Desktop
+- run `ls` , output: Desktop
 - enter Desktop and run the program
-- gets the directory where the program is in which is /, so i go back to / using cd .. command and run the program explicitly using ./
+- gets the directory where the program is in which is /, so i go back to / using `cd ..` command and run the program explicitly using `./`
 
 ### Tools used:
 - none
@@ -109,10 +109,10 @@ traverse through the directory and execute the given program
 ### Category: linux Basics
 
 ## Step 1: find the contents of the directory im in
-- run ls , output: Desktop
+- run `ls` , output: Desktop
 - enter Desktop and run the program
-- gets the directory where the program is in which is /, so i go back to / using cd .. command and then enter challenge.
-- then i use ./run to get the flag as it requires to enter from relative path.
+- gets the directory where the program is in which is /, so i go back to / using `cd ..` command and then enter challenge.
+- then I used `./run` to get the flag as it requires to enter from relative path.
 
 ### Tools used:
 - none
@@ -125,11 +125,11 @@ traverse through the directory and execute the given program
 ### Category: linux Basics
 
 ## Step 1: go to the home directory [not necessary and can be skipped]
-- use cd .. command to go home
+- use `cd ..` command to go home
 
 ## step 2: run challenge/run using a specified parameter
-- the parameter has to be 3 chars and an absolute path which is ~/~
-- run /challenge/run ~/~ to get the flag
+- the parameter has to be 3 chars and an absolute path which is `~/~`
+- run `/challenge/run ~/~` to get the flag
 
 ### Tools used:
 - none
