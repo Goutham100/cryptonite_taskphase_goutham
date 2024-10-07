@@ -122,3 +122,29 @@
 - use: `touch pwn/college` then run `/challenge/run` to get the flag
 ### Tools used:
 - none
+
+## Challenge-11 Name: finding files
+
+### Category: linux Basics
+
+### Step 1: try to find the flag file
+- use: `find / -type f -name flag` [this gives the flag file,because there must only be 1 flag file and rest named flag are directories]
+
+### Step 2: read the file
+- use: `cat flag`
+
+### Tools used:
+- none
+
+## Challenge-12 Name: linking files
+
+### Category: linux Basics
+
+### Step 1: create simulink from /flag to /home/hacker/not-the-flag
+- use: `ln -s /flag /home/hacker/not-the-flag`
+
+### Step 2: run /challenge/catflag
+- use: `/challenge/catflag` to get the flag
+
+### Tools used:
+- none
