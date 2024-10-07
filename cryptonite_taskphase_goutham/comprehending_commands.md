@@ -98,3 +98,27 @@
 
 ### Tools used:
 - none
+
+## Challenge-9 Name: An Epic FileSystem Quest
+
+### Category: linux Basics
+
+### Step 1: cd into directories and cat the files to get the flag
+
+### Tools used:
+- none
+
+## Challenge-10 Name: Making directories
+
+### Category: linux Basics
+
+### Step 1: go to the tmp directory
+- use: `cd tmp/`
+
+### Step 2: create a directory pwn
+- use: `mkdir pwn`
+
+### Step 3: create a file college
+- use: `touch pwn/college` then run `/challenge/run` to get the flag
+### Tools used:
+- none
