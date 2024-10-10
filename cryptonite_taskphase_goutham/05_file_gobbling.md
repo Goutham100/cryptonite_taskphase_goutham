@@ -45,4 +45,25 @@
 
 ### Tools used:
 - none
+## Challenge-5 Name: Mixing globs
 
+### Category: linux Basics
+
+### Step 1: go to /challenge/files
+- run `cd /challenge/files`
+
+### Step 2: run `/challenge/run [chae]*` 
+
+### Tools used:
+- none
+## Challenge-6 Name: exclusionary globbing
+
+### Category: linux Basics
+
+### Step 1: go to /challenge/files
+- run `cd /challenge/files`
+
+### Step 2: run `/challenge/run [!pwn]*` 
+
+### Tools used:
+- none
