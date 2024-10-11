@@ -42,6 +42,7 @@
 - tee: uplicates data flowing through your pipes to any number of files provided on the command line
 - solution: `touch random` to store the data.
 - `/challenge/pwn | tee random | /challenge/college` data gets intercepted
-- `cat random` which tells us to `/challenge/pwn --secret` to get the flag [secret arg is provided]
+- `cat random` which tells us to `/challenge/pwn --secret`
+- then `/challenge/pwn --secret [arg] | /challenge/college` to get the flag
 
   
