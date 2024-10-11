@@ -44,5 +44,4 @@
 - `/challenge/pwn | tee random | /challenge/college` data gets intercepted
 - `cat random` which tells us to `/challenge/pwn --secret` to get the flag [secret arg is provided]
 
-## Challenge-9 Name: Duplicating piped data with tee
   
