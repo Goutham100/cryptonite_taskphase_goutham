@@ -35,14 +35,22 @@
 - run `/challenge/run | grep pwn.college{` to get the flag
 
 ## Challenge-8 Name: Grepping errors
- - >& : redirects a file descriptor to another file descriptor
+ - \>& : redirects a file descriptor to another file descriptor
  - solution:  `/challenge/run 2>& 1 | grep pwn.college{`
  
 ## Challenge-9 Name: Duplicating piped data with tee
-- tee: uplicates data flowing through your pipes to any number of files provided on the command line
+- tee: duplicates data flowing through your pipes to any number of files provided on the command line
 - solution: `touch random` to store the data.
 - `/challenge/pwn | tee random | /challenge/college` data gets intercepted
 - `cat random` which tells us to `/challenge/pwn --secret`
 - then `/challenge/pwn --secret [arg] | /challenge/college` to get the flag
 
-  
+## Challenge-10 Name: Writing to multiple programs
+- tee can be used to duplicating to 2 commands.
+- solution: `/challenge/hack | tee >(/challenge/the) | /challenge/planet`
+- explanation: the output of `/challenge/hack` is piped to tee which sends the copy of output to `/challenge/the` and the other copy is piped to `/challenge/planet`
+
+## challenge-11 Name: Split-piping stderr and stdout
+- solution: `/challenge/hack > >(/challenge/planet) 2> >(/challenge/the)`
+- explanation: /`challenge/hack > >(/challenge/planet)` this line redirects the stdout to `/challenge/planet`
+- `2> >(/challenge/the)` : redirects the stderr to /challenge/the
