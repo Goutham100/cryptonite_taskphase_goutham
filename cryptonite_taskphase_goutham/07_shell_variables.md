@@ -37,3 +37,4 @@
 ## Challenge-8 Name: Reading files
 - you can redirect the output to standard input of read
 - solution: `read PWN < /challenge/read_me`
+
