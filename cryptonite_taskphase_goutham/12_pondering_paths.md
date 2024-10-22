@@ -15,4 +15,8 @@
 - ![img.png](images/12_images/img2.png)
 
 ## Challenge-4 Name: Hijacking Commands
+- the only way to solve this is to trick the /challenge/run program to run our bash script instead of rm to give the flag
+- therefore , create a bash script to read the line from /flag and print the line for eg: `read line</flag;echo $line`
+- then change the permissions of the sh file for /challenge/run to execute it `chmod ugo+x rm`
+- then finally change the path to home/hacker so it's the only place the program can search for rm
 - solution: ![img.png](images/12_images/img3.png)
