@@ -37,4 +37,18 @@
 - solution: ![img_5.png](img_5.png)
 
 ## level 3
-- 
+- ## level 3
+- flag = `pwn.college{ccMF0Q2C8YNFH93N4bWarPS9aWA.dBzNyMDL0kjN0czW}`
+- ```
+      import requests
+
+      url =  'http://127.0.0.1'
+      response = requests.get(url)
+    
+      if response.status_code == 200:
+            print(response.text)
+      else:
+            print("eror")
+
+     ```
+  
